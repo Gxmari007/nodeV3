@@ -16,5 +16,5 @@ if (cluster.isMaster) {
   });
 } else {
   http.createServer(server).listen(opts.port);
-  console.log(opts.name + ' running at port ' + opts.port);
+  console.log(opts.name + ' is running at port ' + opts.port + ' in ' + opts.env + ' mode');
 }
