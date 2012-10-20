@@ -1,4 +1,4 @@
-exports = module.exports = mime = {
+exports = module.exports = {
   'css': 'text/css',
   'ico': 'image/x-icon',
   'html': 'text/html',
